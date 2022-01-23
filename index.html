@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <title>CapyLand</title>
+</head>
+
+<body>
+    <!-- Inicio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <a href="index.html"> <img src="img/logo.png"> </a>
+        </div>
+        <h1>
+            <a href="index.html">
+                C a p y  L a n d</a>
+        </h1>
+    </header>
+    <!-- Fin de la cabecera-->
+
+    <!--Barra de navegación-->
+    <nav id="nav">
+        <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Centros de Rescate</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Fin de navegación-->
+
+    <!-- Inicio de contenido central-->
+    <div id="content">
+        <div class="title">
+        <h2>¡Gracias por tu apoyo!</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi nesciunt distinctio quasi quas temporibus
+            delectus aliquid eaque quos, natus laboriosam eum dolorem similique minus sunt ullam, dignissimos esse facere.</p>
+            <br>
+            <button id='start' onclick="inicio()" > Siguiente </button>
+        </div>
+    </div>
+
+    <!-- Primer bloque-->
+    <div id="firstBlock">
+        <h3>Por favor ingresa tus datos para la compra</h3>
+        <br>
+
+        <div>
+            <label for="name">Titular de la tarjeta</label><br><br>
+            <input type="text" id="firstName" name="name" placeholder="McLovin"><br><br>
+            <label for="card">Número de la tarjeta</label><br><br>
+            <input type="text" id="creditCard" name="card" placeholder="0123456789012345"><br><br>
+        </div>
+
+          <button id='creditCard' onclick="validar()" >Validar</button>
+          <button id='restart' onclick="reinicio()" >Reiniciar</button>
+    </div>
+
+    <div id="secondBlock">
+
+    </div>
+
+    <!-- Fin de contenido central-->
+
+    <!-- Inicio del Footer-->
+        <footer id="footer">
+        <p>&copy; Todos los derechos reservados</p>
+        <p>Desarrollado por Nathalie Sainz. Más contenido <a href="https://github.com/nathaliesainz" target="_blank"/>aquí</p>
+    </footer>
+    <!-- Fin del Footer-->
+</body>
+</html>
