@@ -1,11 +1,11 @@
-/*ESTILOS GENERALES*/
+/*GENERAL*/
 * {
     font-family: sans-serif, Helvetica, Arial;
     text-align: center;
 }
 
 body {
-    background-image: url("../img/background.png");
+    background-image: url("./img/background.png");
     }
 
 a{
@@ -20,9 +20,9 @@ a:hover{
     color: #0511F2;
 }
 
-/* CABECERA*/
+/* HEADER */
 #header a{
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #header #logotipo{
@@ -38,7 +38,7 @@ a:hover{
     width: 140px;
 }
 
-/*BARRA DE NAVEGACIÓN*/
+/*NAV BAR*/
 #nav{
     width: 100%;
     height: 40px;
@@ -74,30 +74,20 @@ a:hover{
     background-color: #0583F2;
 }
 
-/*CONTENIDO*/
-#content {
+/*CONTENT*/
+#h2 {
     font-family: sans-serif, Arial, Helvetica;
     padding-top: 80px;
     width: 500px;
     min-height: 500px;
     margin: 0px auto;
-}
-
-#firstBlock {
-    font-family: sans-serif, Arial, Helvetica;
-    padding-top: 80px;
-    width: 500px;
-    min-height: 500px;
-    margin: 0px auto;
-    display: none;
 }
 
 /*FOOTER*/
 #footer{
     width: 100%;
-    margin: 0px auto;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 415px;
     background-color: #333333;
     padding-top: 10px;
     padding-bottom: 10px;
